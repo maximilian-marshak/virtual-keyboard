@@ -298,16 +298,109 @@
         isUpperCase: false,
       },
       {
-        background: '#444444',
-        width: '94px',
+        background: '#222222',
+        width: '104px',
         key: 'Enter',
         code: 'Enter',
         isUpperCase: false,
       }
+  ];
+
+  const FOUTH_EN_LINE = [
+    {
+        background: '#222222',
+        width: '124px',
+        key: 'Shift',
+        code: 'ShiftLeft',
+        isUpperCase: false,
+      },
+      {
+        background: '#444444',
+        width: '50px',
+        key: 'z',
+        code: 'KeyZ',
+        isUpperCase: false,
+      },
+      {
+        background: '#444444',
+        width: '50px',
+        key: 'x',
+        code: 'KeyX',
+        isUpperCase: false,
+      },
+      {
+        background: '#444444',
+        width: '50px',
+        key: 'c',
+        code: 'KeyC',
+        isUpperCase: false,
+      },
+      {
+        background: '#444444',
+        width: '50px',
+        key: 'v',
+        code: 'KeyV',
+        isUpperCase: false,
+      },
+      {
+        background: '#444444',
+        width: '50px',
+        key: 'b',
+        code: 'KeyB',
+        isUpperCase: false,
+      },
+      {
+        background: '#444444',
+        width: '50px',
+        key: 'n',
+        code: 'KeyN',
+        isUpperCase: false,
+      },
+      {
+        background: '#444444',
+        width: '50px',
+        key: 'm',
+        code: 'KeyM',
+        isUpperCase: false,
+      },
+      {
+        background: '#444444',
+        width: '50px',
+        key: '\,',
+        code: 'Comma',
+        isUpperCase: false,
+      },
+      {
+        background: '#444444',
+        width: '50px',
+        key: '.',
+        code: 'Period',
+        isUpperCase: false,
+      },
+      {
+        background: '#444444',
+        width: '50px',
+        key: '\/',
+        code: 'Slash',
+        isUpperCase: false,
+      },
+      {background: '#222222',
+      width: '50px',
+      key: '▲',
+      code: 'ArrowUp',
+      isUpperCase: false,
+    },
+      {background: '#222222',
+      width: '104px',
+      key: 'Shift',
+      code: 'ShiftRight',
+      isUpperCase: false,
+    }
   ]
   
   export const KEYBOARD_EN = [
     FIRST_EN_LINE,
     SECOND_EN_LINE,
-    THIRD_EN_LINE
+    THIRD_EN_LINE,
+    FOUTH_EN_LINE
   ]
