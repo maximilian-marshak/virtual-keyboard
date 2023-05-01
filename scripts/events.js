@@ -10,6 +10,9 @@ export function onKeyClick({ key, code }, textAreaHtml, keyHtml = undefined) {
       case 'Enter':
         textAreaHtml.value += '\n';
         break;
+      case 'Space':
+        textAreaHtml.value += ' ';
+        break;
       default:
         textAreaHtml.value += key;
         break;

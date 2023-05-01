@@ -396,11 +396,78 @@
       code: 'ShiftRight',
       isUpperCase: false,
     }
+  ];
+
+  const FIFTH_EN_LINE = [
+    {
+        background: '#222222',
+        width: '50px',
+        key: 'Ctrl',
+        code: 'ControlLeft',
+        isUpperCase: false,
+      },
+      {
+        background: '#222222',
+        width: '50px',
+        key: 'Win',
+        code: 'MetaLeft',
+        isUpperCase: false,
+      },
+      {
+        background: '#222222',
+        width: '50px',
+        key: 'Alt',
+        code: 'AltLeft',
+        isUpperCase: false,
+      },
+      {
+        background: '#444444',
+        width: '394px',
+        key: 'Space',
+        code: 'Space',
+        isUpperCase: false,
+      },
+      {
+        background: '#222222',
+        width: '50px',
+        key: 'Alt',
+        code: 'AltRight',
+        isUpperCase: false,
+      },
+      {
+        background: '#222222',
+        width: '50px',
+        key: '◄',
+        code: 'ArrowLeft',
+        isUpperCase: false,
+    },
+    {
+        background: '#222222',
+        width: '50px',
+        key: '▼',
+        code: 'ArrowDown',
+        isUpperCase: false,
+    },
+    {
+        background: '#222222',
+        width: '50px',
+        key: '►',
+        code: 'ArrowRight',
+        isUpperCase: false,
+    },
+    {
+        background: '#222222',
+        width: '50px',
+        key: 'Ctrl',
+        code: 'ControlRight',
+        isUpperCase: false,
+      },
   ]
   
   export const KEYBOARD_EN = [
     FIRST_EN_LINE,
     SECOND_EN_LINE,
     THIRD_EN_LINE,
-    FOUTH_EN_LINE
+    FOUTH_EN_LINE,
+    FIFTH_EN_LINE
   ]
