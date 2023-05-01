@@ -21,11 +21,11 @@ function renderKey(lineHtml, lineValue) {
     keyRoot.style.width = key.width;
     keyRoot.style.textTransform = key.isUpperCase ? 'uppercase' : 'none';
 
-    keyRoot.onkeydown = (e) => {
+    keyRoot.onclick = (e) => {
       e.preventDefault();
       e.stopPropagation();
 
-      onKeyClick(key, textAreaRoot, keyRoot)
+      onKeyClick(key, textAreaRoot, keyRoot);
     }
 
 
