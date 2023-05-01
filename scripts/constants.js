@@ -91,13 +91,6 @@
       {
         background: '#444444',
         width: '50px',
-        key: '-',
-        code: 'Minus',
-        isUpperCase: false,
-      },
-      {
-        background: '#444444',
-        width: '50px',
         key: '=',
         code: 'Equal',
         isUpperCase: false,
@@ -192,13 +185,6 @@
       {
         background: '#444444',
         width: '50px',
-        key: 'p',
-        code: 'KeyP',
-        isUpperCase: false,
-      },
-      {
-        background: '#444444',
-        width: '50px',
         key: '[',
         code: 'BracketLeft',
         isUpperCase: false,
@@ -241,6 +227,83 @@
         code: 'KeyA',
         isUpperCase: false,
       },
+      {
+        background: '#444444',
+        width: '50px',
+        key: 's',
+        code: 'KeyS',
+        isUpperCase: false,
+      },
+      {
+        background: '#444444',
+        width: '50px',
+        key: 'd',
+        code: 'KeyD',
+        isUpperCase: false,
+      },
+      {
+        background: '#444444',
+        width: '50px',
+        key: 'f',
+        code: 'KeyF',
+        isUpperCase: false,
+      },
+      {
+        background: '#444444',
+        width: '50px',
+        key: 'g',
+        code: 'KeyG',
+        isUpperCase: false,
+      },
+      {
+        background: '#444444',
+        width: '50px',
+        key: 'h',
+        code: 'KeyH',
+        isUpperCase: false,
+      },
+      {
+        background: '#444444',
+        width: '50px',
+        key: 'j',
+        code: 'KeyJ',
+        isUpperCase: false,
+      },
+      {
+        background: '#444444',
+        width: '50px',
+        key: 'k',
+        code: 'KeyK',
+        isUpperCase: false,
+      },
+      {
+        background: '#444444',
+        width: '50px',
+        key: 'l',
+        code: 'KeyL',
+        isUpperCase: false,
+      },
+      {
+        background: '#444444',
+        width: '50px',
+        key: ';',
+        code: 'Semicolon',
+        isUpperCase: false,
+      },
+      {
+        background: '#444444',
+        width: '50px',
+        key: '\'',
+        code: 'Semicolon',
+        isUpperCase: false,
+      },
+      {
+        background: '#444444',
+        width: '94px',
+        key: 'Enter',
+        code: 'Enter',
+        isUpperCase: false,
+      }
   ]
   
   export const KEYBOARD_EN = [
