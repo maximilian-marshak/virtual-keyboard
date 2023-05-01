@@ -1,5 +1,4 @@
 export function onKeyClick({ key, code }, textAreaHtml, keyHtml = undefined) {
-    console.log(key, code);
     if (!keyHtml) {
       keyHtml = document.getElementById(key);
     }
