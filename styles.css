@@ -1,0 +1,35 @@
+.textarea-root {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 48px;
+}
+
+.keyboard-root {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.keyboard-line {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+}
+
+.keyboard-key {
+    position: relative;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.keyboard-key-active {
+    background: blue !important;
+}
