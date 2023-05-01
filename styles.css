@@ -1,0 +1,52 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textarea-root {
+    width: 826px;
+    height: 300px;
+
+    margin: 0 auto 48px;
+}
+
+.keyboard-root {
+    width: 826px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    padding: 8px;
+
+    border: 3px solid #222222;
+    border-radius: 4px;
+    background: #888888;
+}
+
+.keyboard-line {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+}
+
+.keyboard-key {
+    position: relative;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.keyboard-key:hover {
+   background: #AFEEEE !important;
+}
+
+.keyboard-key-active {
+    background: #5F9EA0 !important;
+}
