@@ -10,6 +10,7 @@
       key: '`',
       code: 'Backquote',
       isUpperCase: false,
+      set: false,
     },
     {
       background: '#444444',
