@@ -1,5 +1,6 @@
+import {initApp} from "./index.js";
+import {setIsBig } from "./index.js";
 export function onKeyClick({ key, code }, textAreaHtml, keyHtml = undefined) {
-
     if (!keyHtml) {
       keyHtml = document.getElementById(key);
     }
@@ -46,7 +47,15 @@ export function onKeyClick({ key, code }, textAreaHtml, keyHtml = undefined) {
       const caretPosition = textAreaHtml.selectionStart;
       setCaretPosition(textAreaHtml,caretPosition+1);
     }
-  
+
+    const switchCase = async () => {
+      setIsBig();
+
+      const isRootDiv = document.getElementById('root');
+      await isRootDiv.remove();
+      initApp();
+    }
+
     switch (code) {
       case 'Tab':
         textAreaHtml.value += '    ';
@@ -68,6 +77,9 @@ export function onKeyClick({ key, code }, textAreaHtml, keyHtml = undefined) {
         break;
       case 'ArrowRight':
         moveCaretRight();
+        break;
+      case 'CapsLock':
+        switchCase();
         break;
       default:
         textAreaHtml.value += key;
